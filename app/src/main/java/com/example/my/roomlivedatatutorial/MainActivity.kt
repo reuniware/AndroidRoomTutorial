@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             var nbUsers = usersAlreadyInDb.size
             editText.setText(editText.text.toString() + "nb users in db = " + nbUsers + " ; ")
 
-            val user = User(0,"Didier","Virapin")
+            val user = User(0,"Didier","Reuniware")
             userDao.insertUsers(user)
             editText.setText(editText.text.toString() + "data inserted ; ")
 
